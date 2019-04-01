@@ -1,0 +1,2 @@
+curl nickhammond-load-balancer-382554036.us-west-1.elb.amazonaws.com
+
