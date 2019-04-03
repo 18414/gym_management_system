@@ -23,4 +23,13 @@ Server version: 10.1.13-MariaDB Source distribution
 DB_CONNECT_CMD
 /opt/lampp/htdocs/gym_management_system/includes
 cat db_connect.php
+###################
+
+Stop the below both server
+
+
+/opt/lampp/bin/mysql_client_test stop
+
+
+/opt/lampp/bin/mysql.server  stop
 
