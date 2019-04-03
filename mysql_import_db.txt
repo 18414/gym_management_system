@@ -1,0 +1,26 @@
+/opt/lampp/htdocs/gym_management_system/includes
+
+cat db_connect.php
+#################################
+Import data into database
+
+mysql -u username -p gym_database_name < file.sql
+
+
+#################################
+cd /opt/lampp/mysql
+
+
+##########################################
+LOGIN TO  MySQL
+
+root@f3f8974589fe:/opt/lampp/bin# ./mysql -u root
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 41
+Server version: 10.1.13-MariaDB Source distribution
+
+###########################################################
+DB_CONNECT_CMD
+/opt/lampp/htdocs/gym_management_system/includes
+cat db_connect.php
+
